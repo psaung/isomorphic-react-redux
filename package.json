@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "bh",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psaung/isomorphic-react-redux/issues"
+  },
+  "homepage": "https://github.com/psaung/isomorphic-react-redux",
   "scripts": {
     "start": "node \"node_modules/.bin/babel-node\" bin/www",
     "start-api": "nodemon --exec \"node_modules/.bin/nodejs-dashboard\" \"node_modules/.bin/babel-node\" bin/www",

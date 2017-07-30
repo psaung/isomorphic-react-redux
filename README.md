@@ -3,23 +3,23 @@
 ## What's all about
 A simple react-redux frontend and expressjs backend workflow. All of the technolgies used in this project are followings. 
 
-[Yarn](https://www.yarnpkg.com) Dependency Management
-[React](https://www.github.com/facebook/react)
-[React Router](https://www.github.com/ReactTraining/react-router)
-[Express](https://www.expressjs.com) 
-[Babel](https://www.babeljs.io) ES6 transpiling 
-[Webpack](https://webpack.github.io) Module Bundling
-[Webpack Dev Middleware](https://www.webpack.github.io/docs/webpack-dev-middleware.html)
-[Redux](https://www.github.com/reactjs/redux)
-[Redux Dev Tools](https://www.github.com/gaeron/redux-devtools)
-[React Router Redux](https://www.github.com/reactjs/react-router-redux] Handling route and Redux/React Router binding
-[ESLint](https://www.github.com/elsint/eslint) linting and maintaining code consistency
-[ESLint config airbnb](https://www.github.com/airbnb/javascript)  A mostly reasonable approach to Javascript
-[Jest](https://www.github.com/facebook/jest) Testing 
-[Thunk](https://www.github.com/gaeron/redux-thunk) allows you to write action creators that returns a function instead of an action
-[Style Loader](https://www.github.com/webpack-contrib/style-loader)Adds Css to the DOM by injecting a <style> tag
-[Nodejs Dashboard](https://github.com/FormidableLabs/nodejs-dashboard) Dashboard for node.js app from the terminal
-[Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard) A CLI Dashboard for webpack from the terminal
+- [Yarn](https://www.yarnpkg.com) Dependency Management
+- [React](https://www.github.com/facebook/react)
+- [React Router](https://www.github.com/ReactTraining/react-router)
+- [Express](https://www.expressjs.com) 
+- [Babel](https://www.babeljs.io) ES6 transpiling 
+- [Webpack](https://webpack.github.io) Module Bundling
+- [Webpack Dev Middleware](https://www.webpack.github.io/docs/webpack-dev-middleware.html)
+- [Redux](https://www.github.com/reactjs/redux)
+- [Redux Dev Tools](https://www.github.com/gaeron/redux-devtools)
+- [React Router Redux](https://www.github.com/reactjs/react-router-redux] Handling route and Redux/React Router binding
+- [ESLint](https://www.github.com/elsint/eslint) linting and maintaining code consistency
+- [ESLint config airbnb](https://www.github.com/airbnb/javascript)  A mostly reasonable approach to Javascript
+- [Jest](https://www.github.com/facebook/jest) Testing 
+- [Thunk](https://www.github.com/gaeron/redux-thunk) allows you to write action creators that returns a function instead of an action
+- [Style Loader](https://www.github.com/webpack-contrib/style-loader)Adds Css to the DOM by injecting a <style> tag
+- [Nodejs Dashboard](https://github.com/FormidableLabs/nodejs-dashboard) Dashboard for node.js app from the terminal
+- [Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard) A CLI Dashboard for webpack from the terminal
 
 ## Installation
 
