@@ -30,7 +30,8 @@ or
 ## Running Backend(Api-Server)
 
 You can start api server by running `npm run api-server`. Api Server will be spawn at port `3000` with [Nodejs Dashboard](https://github.com/FormidableLabs/nodejs-dashboard)  cli. 
-![http://g.recordit.co/WIUvKhXqnp.gif](http://g.recordit.co/WIUvKhXqnp.gif)
+
+![http://g.recordit.co/WlUvKhXqnp.gif](http://g.recordit.co/WlUvKhXqnp.gif)
 
 ### Database Implementation
 This boilerplate ship without any database logic. All of the data in models are implemented as the temporary data which will only available at run time and did not persist. Database implemention is as your own choices.
@@ -98,12 +99,16 @@ npm run build
 npm run build-html
 npm start
 ```
-## Credits
-This project 
 
 ## Contributing
 
-Plese feel free to contribute to this project, either by fixing bugs or other additional features.
+Please feel free to contribute to this project, either by fixing bugs or other additional features.
+
+  1. Fork it
+  2. Create your feature branch (`git checkout -b my-new-feature`)
+  3. Commit your changes (`git commit -am 'Added some feature'`)
+  4. Push to the branch (`git push origin my-new-feature`)
 
 ## License
-MIT
+
+This software is licensed under MIT license.
