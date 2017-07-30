@@ -1,0 +1,10 @@
+export const API_GET_ALL = 'API_GET_REQUEST'
+export const API_GET_BY_ID = 'API_GET_BY_ID'
+export const API_POST = 'API_POST'
+export const API_PUT = 'API_PUT'
+export const API_DELETE = 'API_DELETE'
+export const API_DELETE_SUCCESS = 'API_DELETE_SUCCESS'
+
+export const API_FETCHING = 'API_FETCHING'
+export const API_SUCCESS = 'API_SUCCESS'
+export const API_FAIL = 'API_FAIL'
