@@ -79,6 +79,13 @@ npm run test
 npm run test:watch
 ```
 
+### Code coverage
+Jest will collect code coverage information from entire project file, including untested files. All of the coverage reports can be found at coverage folder.
+
+```bash
+npm run coverage
+```
+
 ## Linting
 
 Use eslint-config-airbnb for maitaining javascript code consistency for both frontend and backend api.

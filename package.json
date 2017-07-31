@@ -15,6 +15,7 @@
     "open:src": "node_modules/.bin/babel-node tools/srcServer.js",
     "react-test": "jest src/js/__test__/*.spec.js",
     "react-test:watch": "npm run react-test -- --watch",
+    "clean": "rimraf dist coverage",
     "api-test": "jest app/__test__/*.spec.js",
     "api-test:watch": "npm run api-test -- --watch",
     "lint": "node_modules/.bin/esw webpack.config.* src tools app",
@@ -22,7 +23,8 @@
     "test": "npm-run-all --parallel api-test react-test",
     "test:watch": "npm-run-all --parallel api-test:watch react-test:watch",
     "build": "node_modules/.bin/babel-node tools/build",
-    "build-html": "node_modules/.bin/babel-node tools/buildHTML"
+    "build-html": "node_modules/.bin/babel-node tools/buildHTML",
+    "coverage": "jest app/__test__/*.spec.js src/js/__test__/*.spec.js --coverage"
   },
   "devDependencies": {
     "axios": "^0.16.2",
@@ -67,6 +69,7 @@
     "redux-devtools-log-monitor": "^1.3.0",
     "redux-mock-store": "^1.2.3",
     "redux-testkit": "^1.0.6",
+    "rimraf": "^2.6.1",
     "sass-loader": "^6.0.5",
     "should": "^11.2.1",
     "sinon": "^2.3.4",
@@ -92,5 +95,13 @@
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
     "uuid": "^3.1.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/js/actions/**/*.js",
+      "src/js/components/**/*.js",
+      "src/js/reducer/**/*.js",
+      "app/**/*.js"
+    ]
   }
 }
